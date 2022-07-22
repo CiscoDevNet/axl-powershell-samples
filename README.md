@@ -26,7 +26,7 @@ This project was developed using [Visual Studio Code](https://code.visualstudio.
 * From a Powershell terminal, clone this repository:
 
   ```bash
-  git clone git@github.com:CiscoDevNet/axl-powershell-samples.git
+  git clone https://github.com/CiscoDevNet/axl-powershell-samples.git
   ````
 
   and change into the project directory:
