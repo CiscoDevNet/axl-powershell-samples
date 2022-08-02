@@ -25,6 +25,8 @@ This project was developed using [Visual Studio Code](https://code.visualstudio.
 
 * `axl_addUser.py` - Add an end user, associated with a phone, enabling IM&P and setting UC ServiceProfile (`<addUser>`).
 
+* `axl_executeSQLQuery.py` - Query for all CSF devices not associated with an end user, then parse/output a simple report (`<executeSQLQuery>`).
+
 ## Getting started
 
 * From a Powershell terminal, clone this repository:

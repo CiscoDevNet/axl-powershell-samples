@@ -59,7 +59,7 @@ try {
    $Result = Invoke-RestMethod -Method Post -Uri $url -Headers $headers -Credential $cred -Body $body
 }
 catch {
-   Write-Host "`r`n<addLine>: FAILED"
+   Write-Host "`r`n<addPhone>: FAILED"
    output_error
    Exit
 }
