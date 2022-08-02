@@ -1,8 +1,8 @@
-# [CmdletBinding()]param (
-#    [Parameter(Mandatory=$true)][string]$axlhost,
-#    [Parameter(Mandatory=$true)][string]$user,
-#    [Parameter(Mandatory=$true)][String]$password
-# )
+[CmdletBinding()]param (
+   [Parameter(Mandatory=$true)][string]$axlhost,
+   [Parameter(Mandatory=$true)][string]$user,
+   [Parameter(Mandatory=$true)][String]$password
+)
 . .\.env.ps1
 . .\include\xml_pretty_print.ps1
 . .\include\output_error.ps1
@@ -31,7 +31,7 @@ $url = "https://"+$axlhost+":8443/axl/"
 $pass = ConvertTo-SecureString $password -AsPlainText -Force
 $cred = New-Object Management.Automation.PSCredential ($user, $pass)
 $headers = @{
-   'SOAPAction' = '"CUCM:DB ver=14.0 addLIne"'
+   'SOAPAction' = '"CUCM:DB ver=14.0 addLine"'
    'Content-Type' = 'text/xml'
 }
 

@@ -51,7 +51,7 @@ $url = "https://"+$axlhost+":8443/axl/"
 $pass = ConvertTo-SecureString $password -AsPlainText -Force
 $cred = New-Object Management.Automation.PSCredential ($user, $pass)
 $headers = @{
-   'SOAPAction' = '"CUCM:DB ver=14.0 addLIne"'
+   'SOAPAction' = '"CUCM:DB ver=14.0 addPhone"'
    'Content-Type' = 'text/xml'
 }
 

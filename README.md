@@ -21,6 +21,10 @@ This project was developed using [Visual Studio Code](https://code.visualstudio.
 
 * `axl_addLine.py` - Add a line (`<addLine>`).
 
+* `axl_addPhone.py` - Add a CSF device, associated with a line (`<addPhone>`).
+
+* `axl_addUser.py` - Add an end user, associated with a phone, enabling IM&P and setting UC ServiceProfile (`<addUser>`).
+
 ## Getting started
 
 * From a Powershell terminal, clone this repository:
