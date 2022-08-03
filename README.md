@@ -68,3 +68,5 @@ This project was developed using [Visual Studio Code](https://code.visualstudio.
 * The [SoapUI](https://www.soapui.org/) tool can be very helpful when developing with AXL, as you can import the AXL WSDL file, and SoapUI can autogenerate request templates including all required/optional elements.
 
   The tool can then execute requests and show the XML output.  Once you have created successful AXL requests in SoapUI, you can copy the XML into new requests based on these samples.
+
+  [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/CiscoDevNet/axl-powershell-samples)
