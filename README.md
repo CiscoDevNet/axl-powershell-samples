@@ -19,13 +19,13 @@ This project was developed using [Visual Studio Code](https://code.visualstudio.
 
 ## Available samples
 
-* `axl_addLine.py` - Add a line (`<addLine>`).
+* `axl_addLine.ps1` - Add a line (`<addLine>`).
 
-* `axl_addPhone.py` - Add a CSF device, associated with a line (`<addPhone>`).
+* `axl_addPhone.ps1` - Add a CSF device, associated with a line (`<addPhone>`).
 
-* `axl_addUser.py` - Add an end user, associated with a phone, enabling IM&P and setting UC ServiceProfile (`<addUser>`).
+* `axl_addUser.ps1` - Add an end user, associated with a phone, enabling IM&P and setting UC ServiceProfile (`<addUser>`).
 
-* `axl_executeSQLQuery.py` - Query for all CSF devices not associated with an end user, then parse/output a simple report (`<executeSQLQuery>`).
+* `axl_executeSQLQuery.ps1` - Query for all CSF devices not associated with an end user, then parse/output a simple report (`<executeSQLQuery>`).
 
 ## Getting started
 
